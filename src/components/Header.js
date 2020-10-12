@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <header className='Header'>
         <h1>GIF-Libs</h1>
-        <h2>Sample ||| Nav</h2>
+        <h2 className='nav'>Sample ||| Nav</h2>
       </header>
     </div>
   );

@@ -11,41 +11,41 @@
   justify-content: space-between;
   margin: 0;
   padding: 30px;
-  border-bottom: 3px solid white;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 4em;
+.Header h1 {
+  font-size: 1em;
+}
+
+.nav {
+  font-size: 1em;
 }
 
 .SearchFields {
+  flex-direction: column;
   display: flex;
   justify-content: center;
-  margin-top: 45px;
 }
 
-.adjectiveDiv,
-.nounDiv {
-  font-size: 2em;
+.adjectiveInputDiv,
+.nounInputDiv {
+  font-size: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 5px;
 }
 
-.adjectiveInput,
-.nounInput {
-  margin-left: 10px;
-  height: 1.6em;
+.resultsTitle {
+  margin-top: 80px;
 }
 
 .Results {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-bottom: 80px;
 }
 
 .adjectiveResult,
@@ -57,14 +57,7 @@ h1 {
   color: black;
   height: 300px;
   width: 300px;
-}
-
-.adjectiveResult {
-  margin-right: 10px;
-}
-
-.nounResult {
-  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 /* .nounResult {
@@ -74,12 +67,16 @@ h1 {
   width: 300px;
 } */
 
+.combinedResultsTitle {
+  margin-top: 80px;
+}
+
 .CombinedResults {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 .CombinedResultsChild {
@@ -95,4 +92,44 @@ h1 {
 .Footer {
   font-size: 14px;
   margin: 20px 0px;
+}
+
+@media (min-width: 768px) {
+  .Header h1 {
+    font-size: 2em;
+  }
+
+  .nav {
+    font-size: 2em;
+  }
+
+  .SearchFields {
+    margin-top: 45px;
+    flex-direction: row;
+  }
+
+  .adjectiveInput,
+  .nounInput {
+    margin-left: 10px;
+    height: 1.6em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header h1,
+  .nav {
+    font-size: 3em;
+  }
+
+  .Results {
+    flex-direction: row;
+    margin-bottom: 300px;
+  }
+
+  .adjectiveResult {
+    margin-right: 10px;
+  }
+  .nounResult {
+    margin-left: 10px;
+  }
 }
