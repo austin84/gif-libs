@@ -5,7 +5,9 @@ export default function CombinedResults() {
     <>
       <h3 className='combinedResultsTitle'>Combined Gif Result</h3>
       <div className='CombinedResults'>
-        <div className='CombinedResultsChild'>test combined</div>
+        <div className='CombinedResultsChild'>
+          <h3>Secret Sauce</h3>
+        </div>
       </div>
     </>
   );

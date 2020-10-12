@@ -5,8 +5,12 @@ export default function Results() {
     <>
       <h3 className='resultsTitle'>Gif Results</h3>
       <div className='Results'>
-        <div className='adjectiveResult'>test adjective</div>
-        <div className='nounResult'>test noun</div>
+        <div className='adjectiveResult'>
+          <h3>Adjective, Please.</h3>
+        </div>
+        <div className='nounResult'>
+          <h3>Noun, Please.</h3>
+        </div>
       </div>
     </>
   );

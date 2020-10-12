@@ -26,6 +26,14 @@
   display: flex;
   justify-content: center;
 }
+.submitBtn {
+  background-color: wheat;
+  font-size: 2em;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+}
 
 .adjectiveInputDiv,
 .nounInputDiv {
@@ -107,6 +115,9 @@
     margin-top: 45px;
     flex-direction: row;
   }
+  .inputs {
+    font-size: 1.8em;
+  }
 
   .adjectiveInput,
   .nounInput {
@@ -119,6 +130,17 @@
   .Header h1,
   .nav {
     font-size: 3em;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5em;
+  }
+
+  .nounInput,
+  .adjectiveInput {
+    height: 40px;
+    width: 180px;
   }
 
   .Results {
