@@ -4,7 +4,6 @@
   text-align: center;
   color: white;
   background-color: black;
-  height: 100vh;
 }
 
 .Header {
@@ -12,9 +11,88 @@
   justify-content: space-between;
   margin: 0;
   padding: 30px;
+  border-bottom: 3px solid white;
 }
+
 h1 {
   margin: 0;
   padding: 0;
   font-size: 4em;
+}
+
+.SearchFields {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.adjectiveDiv,
+.nounDiv {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.adjectiveInput,
+.nounInput {
+  margin-left: 10px;
+  height: 1.6em;
+}
+
+.Results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.adjectiveResult,
+.nounResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+.adjectiveResult {
+  margin-right: 10px;
+}
+
+.nounResult {
+  margin-left: 10px;
+}
+
+/* .nounResult {
+  background-color: white;
+  color: black;
+  height: 300px;
+  width: 300px;
+} */
+
+.CombinedResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.CombinedResultsChild {
+  background-color: white;
+  color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer {
+  font-size: 14px;
+  margin: 20px 0px;
 }
