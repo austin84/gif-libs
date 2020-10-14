@@ -7,17 +7,23 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  const [adjectiveGif, setAdjectiveGif] = useState({
-    url: 'https://giphy.com/embed/3o6MbtSmRdZEB7jnwI',
-    alt: '',
+  const [adjectiveGif, setAdjectiveGif] = useState(() => {
+    return {
+      url: 'https://giphy.com/embed/3o6MbtSmRdZEB7jnwI',
+      alt: '',
+    };
   });
-  const [nounGif, setNounGif] = useState({
-    url: 'https://giphy.com/embed/l2JdTaFdKBU4uCdJS',
-    alt: '',
+  const [nounGif, setNounGif] = useState(() => {
+    return {
+      url: 'https://giphy.com/embed/l2JdTaFdKBU4uCdJS',
+      alt: '',
+    };
   });
-  const [combinedGif, setCombinedGif] = useState({
-    url: 'https://giphy.com/embed/3o6ZsYIHKbppBG37dm',
-    alt: 'adjective and noun combined',
+  const [combinedGif, setCombinedGif] = useState(() => {
+    return {
+      url: 'https://giphy.com/embed/3o6ZsYIHKbppBG37dm',
+      alt: 'adjective and noun combined',
+    };
   });
   const [nounValue, setNounValue] = useState('');
   const [adjectiveValue, setAdjectiveValue] = useState('');
