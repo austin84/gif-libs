@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/austin84/gif-libs/static/css/main.d1ae7263.chunk.css",
+    "main.js": "/austin84/gif-libs/static/js/main.40077953.chunk.js",
+    "main.js.map": "/austin84/gif-libs/static/js/main.40077953.chunk.js.map",
+    "runtime-main.js": "/austin84/gif-libs/static/js/runtime-main.06b553e7.js",
+    "runtime-main.js.map": "/austin84/gif-libs/static/js/runtime-main.06b553e7.js.map",
+    "static/js/2.d8ac9028.chunk.js": "/austin84/gif-libs/static/js/2.d8ac9028.chunk.js",
+    "static/js/2.d8ac9028.chunk.js.map": "/austin84/gif-libs/static/js/2.d8ac9028.chunk.js.map",
+    "index.html": "/austin84/gif-libs/index.html",
+    "precache-manifest.58abe479d62c29a0be8582cdf868d746.js": "/austin84/gif-libs/precache-manifest.58abe479d62c29a0be8582cdf868d746.js",
+    "service-worker.js": "/austin84/gif-libs/service-worker.js",
+    "static/css/main.d1ae7263.chunk.css.map": "/austin84/gif-libs/static/css/main.d1ae7263.chunk.css.map",
+    "static/js/2.d8ac9028.chunk.js.LICENSE.txt": "/austin84/gif-libs/static/js/2.d8ac9028.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06b553e7.js",
+    "static/js/2.d8ac9028.chunk.js",
+    "static/css/main.d1ae7263.chunk.css",
+    "static/js/main.40077953.chunk.js"
+  ]
+}
